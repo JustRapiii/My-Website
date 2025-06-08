@@ -1,40 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Keren Raffi</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Keren Raffi - Tentang Saya</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #374151;
+    }
+
+    nav {
+      background-color: #1f2937;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+      text-decoration: underline;
+    }
+
+    article {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em 2em;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    article h1 {
+      text-align: center;
+      color: #1d4ed8;
+    }
+
+    article p {
+      font-size: 1.1em;
+      line-height: 1.8em;
+      margin-bottom: 1.5em;
+    }
+
+    video {
+      display: block;
+      margin: 0 auto;
+      border: 3px solid #3b82f6;
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1f2937;
+      color: white;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cvsiswa_Raffi.pdf">Download CV</a> |
-        <a href="contact.html">Kontak</a> |
-        <a href="about.html">Tentang Saya</a>
-    </nav>
 
-    <hr />
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cvsiswa_Raffi.pdf">Download CV</a>
+    <a href="contact.html">Kontak</a>
+    <a href="about.html">Tentang Saya</a>
+  </nav>
 
-    <article>
-        <h1>Tentang Saya</h1>
-        <p>
-           Halo, nama saya Raffi Abyan Akbar. Saya lahir di Bekasi pada tanggal 24 Oktober 2007. 
-        Saat ini, saya adalah siswa SMKN 1 Cikarang Barat jurusan Teknik Jaringan Komputer & Telekomunikasi (XI TJKT B).
-       Sejak SD, saya sudah tertarik dengan dunia komputer, terutama pada saat main di Warnet.
-       Di jurusan TJKT, saya belajar banyak hal seperti perakitan pc, instalasi sistem operasi, konfigurasi jaringan, serta melakukan Troubleshooting.
-        </p>
-        <p>
-            <video controls width="640">
-                <source src="Video/My Skill (Raffi).webm" type="video/webm"/>
-            </video>
-        </p>
-    </article>
+  <article>
+    <h1>Tentang Saya</h1>
+    <p>
+      Halo, nama saya <strong>Raffi Abyan Akbar</strong>. Saya lahir di Bekasi pada tanggal <strong>24 Oktober 2007</strong>.
+      Saat ini, saya adalah siswa <strong>SMKN 1 Cikarang Barat</strong> jurusan Teknik Jaringan Komputer & Telekomunikasi (XI TJKT B).
+      Sejak SD, saya sudah tertarik dengan dunia komputer, terutama saat main di Warnet.
+    </p>
+    <p>
+      Di jurusan <strong>TJKT</strong>, saya belajar banyak hal seperti:
+      perakitan PC, instalasi sistem operasi, konfigurasi jaringan, serta melakukan troubleshooting.
+    </p>
+    <p>
+      Berikut adalah video yang menunjukkan beberapa skill saya:
+    </p>
+    <video controls>
+      <source src="Video/My Skill (Raffi).webm" type="video/webm" />
+      Browser Anda tidak mendukung pemutaran video.
+    </video>
+  </article>
 
-    <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2025 Raffi Abyan Akbar.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Raffi Abyan Akbar.</p>
+  </footer>
+
 </body>
 </html>

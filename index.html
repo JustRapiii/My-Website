@@ -1,69 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Keren Raffi</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Keren Raffi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f8;
+      color: #333;
+    }
+
+    nav {
+      background-color: #1f2937;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: #93c5fd;
+    }
+
+    header {
+      text-align: center;
+      padding: 2em 1em;
+      background-color: #e5e7eb;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid #3b82f6;
+    }
+
+    article {
+      text-align: center;
+      padding: 1em 2em;
+    }
+
+    table {
+      width: 90%;
+      margin: 2em auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 1em;
+      border: 1px solid #d1d5db;
+    }
+
+    th {
+      background-color: #3b82f6;
+      color: white;
+    }
+
+    ul {
+      padding-left: 1.2em;
+      text-align: left;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #1f2937;
+      color: white;
+      margin-top: 3em;
+    }
+  </style>
 </head>
-
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="cvsiswa_Raffi.pdf">Download CV</a> |
-        <a href="contact.html">Kontak</a> |
-        <a href="about.html">Tentang Saya</a>
-    </nav>
 
-    <hr />
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="cvsiswa_Raffi.pdf">Download CV</a>
+    <a href="contact.html">Kontak</a>
+    <a href="about.html">Tentang Saya</a>
+  </nav>
 
-    <header style="text-align: center;">
-        <img src="Image/FOR ME.jpeg" width="200" height="200" style="border-radius: 50%;"/>
-        <h1>Raffi Abyan Akbar</h1>
-        <p>(Pelajar)</p>
-    </header>
+  <header>
+    <img src="Image/FOR ME.jpeg" alt="Foto Raffi Abyan Akbar" />
+    <h1>Raffi Abyan Akbar</h1>
+    <p>(Pelajar)</p>
+  </header>
 
-    <hr />
+  <article>
+    <h2>Tentang Saya</h2>
+    <p>
+      Halo, saya Raffi Abyan Akbar kelas XI TJKT B di SMKN 1 Cikarang Barat.
+    </p>
+  </article>
 
-    <article style="text-align: center;">
-        <h2>Tentang Saya</h2>
-        <p>
-            Halo, saya Raffi Abyan Akbar kelas XI TJKT B di SMKN 1 Cikarang Barat.
-        </p>
-    </article>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Keahlian</th>
+          <th>Pengalaman</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li>Rakit & Bongkar PC</li>
+              <li>Instalasi Sistem Operasi Windows & Linux</li>
+              <li>Memahami Jaringan Dasar</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Troubleshooting PC</li>
+              <li>Cabling</li>
+              <li>Melakukan Konfigurasi Jaringan</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <div style="max-width: 600px; margin: 3em auto">
-        <table border="1" width="100%">
-            <thead>
-                <tr>
-                    <th>Keahlian</th>
-                    <th>Pengalaman</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li>Rakit & Bongkar PC</li>
-                            <li>Instalasi Sistem Operasi Windows & Linux</li>
-                            <li>Memahami Jaringan Dasar</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>Troubleshooting PC</li>
-                            <li>Cabling</li>
-                            <li>Melakukan Konfigurasi Jaringan</li>
-                        </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  <footer>
+    <p>&copy; 2025 Raffi Abyan Akbar</p>
+  </footer>
 
-    <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2025 Raffi Abyan Akbar.</p>
-    </footer>
 </body>
 </html>
+
+
